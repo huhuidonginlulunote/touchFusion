@@ -1,0 +1,32 @@
+
+<div class="wheel">
+  <button (click)="startWheel()">CLICK TO START</button>
+   
+  <div class="icon-wheel">
+    <img class="icon center" *ngIf="fatherItem" [style.display]="centerShow? 'block': 'none'" src="../assets/icons/{{fatherItem}}.svg"/>
+    <!-- <object class="icon center" *ngIf="fatherItem" [style.display]="centerShow? 'block': 'none'" type="image/svg+xml" data="assets/icons/{{fatherItem}}.svg"></object> -->
+    
+    <img *ngFor="let item of menuItems; let i = index;" class="icon level1 {{item.label}}"  src="../assets/icons/{{item.icon}}.png" [@fadeIn] = "item.action"
+      (click) = "showLevel2(item)"/>
+   
+    <img *ngFor="let item2 of level2Items" class="icon level2 {{item2.label}}" src="../assets/icons/{{item2.icon}}.png" [@fadeIn] = "fadeInLevel2"
+      (click) = "showLevel3(item2)"/>
+
+    <img class="icon back" src="../assets/icons/Back.png" [@fadeIn] = "fadeInLevel2" (click) = "backFn()"/>
+  </div>
+
+  <object id="wheel-obj" class="wheel-obj" [class.wheel-obj-init]="showWheelObj" type="image/svg+xml" data="assets/icons/wheel-start.svg"></object>
+  
+</div>
+<div class="level2-obj">
+  <object id="semi-object" type="image/svg+xml" data="assets/icons/semi.svg" [style.display]="semiShow? 'block': 'none'"></object>
+</div>
+
+<div id="level-3">
+  <object class="wheel-lit-object level-3" [ngClass]="rotateclass" [@fadeIn]="fadeInLevel3"
+   type="image/svg+xml" data="assets/icons/wheel-lit.svg"></object>
+  <object id="floaties" class="level-3" [style.display]="floatiesShow? 'inline': 'none'" type="image/svg+xml" data="assets/icons/floaties.svg"></object>
+</div>
+
+
+
