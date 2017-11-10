@@ -12,5 +12,3 @@ After you clone this code, you still need to do the following things.
 
 5.Use ng serve to run the project.
 
-# touchFusion
-
