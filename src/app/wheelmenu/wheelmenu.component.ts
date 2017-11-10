@@ -3,7 +3,6 @@ import { Component, OnInit } from '@angular/core';
 import * as Vivus from 'vivus';
 import * as TweenMax from '../../libs/TweenMax.min.js';
 import { fadeIn } from '../animation/fade-in';
-import { Level3} from './level3/level3.component'
 
 @Component({
   selector: 'app-wheelmenu',
