@@ -1,0 +1,64 @@
+.center{
+    background: #000;
+}
+
+.Pen{
+    -webkit-mask: url("../../assets/icons/Pen.svg") no-repeat center;
+}
+    .Marker{
+        -webkit-mask: url("../../assets/icons/Marker.svg") no-repeat center;
+    }
+    .Highlighter{
+        -webkit-mask: url("../../assets/icons/Highlighter.svg") no-repeat center;
+    }
+    .MagicPen{
+        -webkit-mask: url("../../assets/icons/MagicPen.svg") no-repeat center;
+    }
+
+.Eraser{
+    -webkit-mask: url("../../assets/icons/Eraser.svg") no-repeat center;
+}
+    .Line{
+        -webkit-mask: url("../../assets/icons/Line.svg") no-repeat center;
+    }
+    .Spot{
+        -webkit-mask: url("../../assets/icons/Line.svg") no-repeat center;
+    }
+    .EraseAll{
+        -webkit-mask: url("../../assets/icons/Line.svg") no-repeat center;
+    }
+
+.Media{
+    -webkit-mask: url("../../assets/icons/Media.svg") no-repeat center;
+}
+    .Lasso{
+        -webkit-mask: url("../../assets/icons/Select.svg") no-repeat center;
+    }
+    .Marquee{
+        -webkit-mask: url("../../assets/icons/Select.svg") no-repeat center;
+    }
+    .Tap{
+        -webkit-mask: url("../../assets/icons/Select.svg") no-repeat center;
+    }
+
+.Shapes{
+    -webkit-mask: url("../../assets/icons/Shapes.svg") no-repeat center;
+}
+    .Ruler{
+        -webkit-mask: url("../../assets/icons/Ruler.svg") no-repeat center;
+    }
+    .Protractor{
+        -webkit-mask: url("../../assets/icons/Protractor.svg") no-repeat center;
+    }
+    .CircleTriangleStar{
+        -webkit-mask: url("../../assets/icons/CircleTriangleStar.svg") no-repeat center;
+    }
+    .Circle{
+        -webkit-mask: url("../../assets/icons/Circle.svg") no-repeat center;
+    }
+    .Triangle{
+        -webkit-mask: url("../../assets/icons/Triangle.svg") no-repeat center;
+    }
+    .Rectangle{
+        -webkit-mask: url("../../assets/icons/Rectangle.svg") no-repeat center;
+    }

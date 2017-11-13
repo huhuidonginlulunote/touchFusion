@@ -3,9 +3,10 @@
   <button (click)="startWheel()">CLICK TO START</button>
    
   <div class="icon-wheel">
-    <img class="icon center" *ngIf="fatherItem" [style.display]="centerShow? 'block': 'none'" src="../assets/icons/{{fatherItem}}.svg"/>
+    <!-- <img class="icon center" *ngIf="fatherItem" [style.display]="centerShow? 'block': 'none'" src="../assets/icons/{{fatherItem}}.svg"/> -->
     <!-- <object class="icon center" *ngIf="fatherItem" [style.display]="centerShow? 'block': 'none'" type="image/svg+xml" data="assets/icons/{{fatherItem}}.svg"></object> -->
-    
+    <div class="icon center {{fatherItem}}" *ngIf="fatherItem" [style.display]="centerShow? 'block': 'none'"></div>
+
     <img *ngFor="let item of menuItems; let i = index;" class="icon level1 {{item.label}}"  src="../assets/icons/{{item.icon}}.png" [@fadeIn] = "item.action"
       (click) = "showLevel2(item)"/>
    

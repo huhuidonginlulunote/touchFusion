@@ -26,45 +26,45 @@ export class WheelmenuComponent implements OnInit {
     {label:'c1',
     icon:'Pen',
     action:'pen',
-    subMenuItems:[{label:'c1-level2',icon:'Pen/Marker', action:'pen_marker'
-    },{label:'c2-level2',icon:'Pen/Highlighter', action:'pen_highlighter'
-    },{label:'c3-level2', icon:'Pen/Magic Pen', action:'pen_magicPen'
+    subMenuItems:[{label:'c1-level2',icon:'Marker', action:'pen_marker'
+    },{label:'c2-level2',icon:'Highlighter', action:'pen_highlighter'
+    },{label:'c3-level2', icon:'MagicPen', action:'pen_magicPen'
     }]
   },
   { label:'c2',
-    icon:'Erase',
+    icon:'Eraser',
     action:'eraser',
-    subMenuItems:[{label:'c1-level2', icon:'Erase/Line', action:'eraser_line'
-    },{label:'c2-level2', icon:'Erase/Spot', action:'eraser_spot'
-    },{label:'c3-level2', icon:'Erase/Erase All', action:'eraser_all'
+    subMenuItems:[{label:'c1-level2', icon:'Line', action:'eraser_line'
+    },{label:'c2-level2', icon:'Spot', action:'eraser_spot'
+    },{label:'c3-level2', icon:'EraseAll', action:'eraser_all'
     }]
   },
   { label:'c3',
     icon:'Media',
     action:'media',
-    subMenuItems:[{label:'c1-level2', icon:'Media/images', action:'media_images'
-    },{label:'c2-level2',icon:'Media/File', action:'media_file'
-    },{label:'c3-level2',icon:'Media/Video', action:'media_video'
-    },{label:'c4-level2',icon:'Media/Microsoft Office Objects', action:'media_microsoftOffice'
+    subMenuItems:[{label:'c1-level2', icon:'images', action:'media_images'
+    },{label:'c2-level2',icon:'File', action:'media_file'
+    },{label:'c3-level2',icon:'Video', action:'media_video'
+    },{label:'c4-level2',icon:'Microsoft Office Objects', action:'media_microsoftOffice'
     }]
   },
   { label:'c4',
     icon:'Select',
     action:'select',
-    subMenuItems:[{label:'c1-level2', icon:'Select/Lasso', action:'select_lasso'
-    },{label:'c2-level2', icon:'Select/Marquee', action:'select_marquee'
-    },{label:'c3-level2', icon:'Select/Tap', action:'select_tap'
+    subMenuItems:[{label:'c1-level2', icon:'Lasso', action:'select_lasso'
+    },{label:'c2-level2', icon:'Marquee', action:'select_marquee'
+    },{label:'c3-level2', icon:'Tap', action:'select_tap'
     }]
   },
   { label:'c5',
     icon:'Shapes',
     action:'shapes',
-    subMenuItems:[{label:'c1-level2', icon:'Shapes/Ruler', action:'shapes_ruler'
-    },{label:'c1-level2', icon:'Shapes/Protractor', action:'shapes_protractor'
-    },{label:'c2-level2', icon:'Shapes/Circle, Triangle, Star', action:'shapes_circleTriangleStar'
-    },{label:'c3-level2', icon:'Shapes/Circle', action:'shapes_circle'
-    },{label:'c4-level2', icon:'Shapes/Triangle', action:'shapes_triangle'
-    },{label:'c5-level2', icon:'Shapes/Rectangle', action:'shapes_rectangle'
+    subMenuItems:[{label:'c1-level2', icon:'Ruler', action:'shapes_ruler'
+    },{label:'c1-level2', icon:'Protractor', action:'shapes_protractor'
+    },{label:'c2-level2', icon:'CircleTriangleStar', action:'shapes_circleTriangleStar'
+    },{label:'c3-level2', icon:'Circle', action:'shapes_circle'
+    },{label:'c4-level2', icon:'Triangle', action:'shapes_triangle'
+    },{label:'c5-level2', icon:'Rectangle', action:'shapes_rectangle'
     }]
   }]
 
